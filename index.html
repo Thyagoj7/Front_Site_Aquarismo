@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Fruta & Fruto</title>
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link href="./assets/css/reset.css" rel="stylesheet" />
+        <link href="./assets/css/style.css" rel="stylesheet" />
+        <link href="./assets/css/cabecalho.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-lista.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-titulo.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-imagem.css" rel="stylesheet" />
+        <link href="./assets/css/sobre/sobre.css" rel="stylesheet" />
+        <link href="./assets/css/sobre/sobre-descricao.css" rel="stylesheet" />
+        <link href="./assets/css/sobre/sobre-titulo.css" rel="stylesheet" />
+        <link href="./assets/css/receitas.css" rel="stylesheet" />
+        <link href="./assets/css/receita/receita.css" rel="stylesheet" />
+        <link href="./assets/css/receita/receita-botao.css" rel="stylesheet" />
+        <link href="./assets/css/receita/receita-conteudo.css" rel="stylesheet" />
+        <link href="./assets/css/receita/receita-descricao.css" rel="stylesheet" />
+        <link href="./assets/css/receita/receita-imagem.css" rel="stylesheet" />
+        <link href="./assets/css/receita/receita-titulo.css" rel="stylesheet" />
+        <link href="./assets/css/quemSomos/quemSomos.css" rel="stylesheet" />
+        <link href="./assets/css/quemSomos/quemSomos-descricao.css" rel="stylesheet" />
+        <link href="./assets/css/quemSomos/quemSomos-titulo.css" rel="stylesheet" />
+
+    </head>
+    <body>
+        <header class="cabecalho">
+            <!-- <img class="logo" alt="fruta e fruto" src="./assets/img/logo.jpg"/> -->
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link ativo"  href="#">Inicio</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Receitas</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Quem somos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Comunidade</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="banner">
+            <!-- <img class="banner__imagem" src="./assets/img/banner.jpg"/> -->
+            <img class="banner__imagem" src="./assets/img/banner_aquarismo_st.jfif">
+            <h2 class="banner__titulo">O melhor do aquarismo!!</h2>
+            <!-- <h2 class="banner__titulo">Reaproveite melhor os alimentos!</h2> -->
+        </section>
+        <section class="sobre">
+            <h2 class="sobre__titulo">Mundo Aquarismo</h2>
+            <p class="sobre__descricao">Feito de aquarista para os amantes do aquarismo uma coleção de informações sobre o tão amado mundo do aquarismo</p>
+        </section>
+        <section class="receitas">
+            <div class="receita">
+                <img alt="Tigela de abacate" class="receita__imagem" src="./assets/img/Peixes-titulos/peixeAmazonico.webp" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Amazônicos</h4>
+                    <p class="receita__descricao">Peixes que vivem nas aguas amazonicas</p>
+                    <button class="receita__botao">Ver mais</button>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Tigela de abacate" class="receita__imagem" src="./assets/img/Peixes-titulos/jumbo-tucunare.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Jumbos</h4>
+                    <p class="receita__descricao">Peixes de grande porte</p>
+                    <button class="receita__botao">Ver mais</button>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Tigela de abacate" class="receita__imagem" src="./assets/img/Peixes-titulos/peixe-leao-300x212.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Marinho</h4>
+                    <p class="receita__descricao">Peixes de água salgada</p>
+                    <button class="receita__botao">Ver mais</button>
+                </div>
+            </div>
+            <div class="receita">
+                <img alt="Tigela de abacate" class="receita__imagem" src="./assets/img/Peixes-titulos/peixe-primitivo.jpg" />
+                <div class="receita__conteudo">
+                    <h4 class="receita__titulo">Primitivos</h4>
+                    <p class="receita__descricao">Peixes que caminharam com os dinossauros.</p>
+                    <button class="receita__botao">Ver mais</button>
+                </div>
+            </div>
+        </section>
+        <section class="quem-somos">
+            <h3 class="quem-somos__titulo">Quem somos</h3>
+            <p class="quem-somos__descricao">Conheça a comunidade por trás da iniciativa</p>
+            <div class="pessoas">
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa__imagem--roberta"></div>
+                    <span class="pessoa__nome">Roberta</span>
+                    <span class="pessoa__funcao">Conteúdo</span>
+                </div>
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa__imagem--marcela"></div>
+                    <span class="pessoa__nome">Marcela</span>
+                    <span class="pessoa__funcao">Chef de cozinha</span>
+                </div>
+                <div class="pessoa">
+                    <div class="pessoa__imagem pessoa__imagem--andreia"></div>
+                    <span class="pessoa__nome">Andréia</span>
+                    <span class="pessoa__funcao">Pequena Produtora</span>
+                </div>
+            </div>
+        </section>
+        
+    </body>
+</html>
